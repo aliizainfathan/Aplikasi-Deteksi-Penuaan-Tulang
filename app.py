@@ -3,7 +3,7 @@ import numpy as np
 import pickle
 import pandas as pd
 
-# Load model & scaler
+# Load model dan scaler
 model_dt = pickle.load(open("model_dt.pkl", "rb"))
 scaler_dt = pickle.load(open("scaler_dt.pkl", "rb"))
 
